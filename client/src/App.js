@@ -11,7 +11,7 @@ library.add(faEdit);
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" style={{ border: '5px solid #000' }}>
         <Router>
           <div>
             <Navbar />
